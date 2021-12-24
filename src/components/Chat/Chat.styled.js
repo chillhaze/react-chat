@@ -28,9 +28,9 @@ export const Name = styled.div`
   font-size: 10px;
   overflow: hidden;
 
-  /* @media (max-width: 550px) {
-    display: none;
-  } */
+  @media (max-width: 550px) {
+    font-size: 8px;
+  }
 `;
 export const Message = styled.p`
   min-width: 100px;

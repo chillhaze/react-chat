@@ -143,6 +143,7 @@ const Chat = () => {
           style={{ width: "85%" }}
         >
           <TextField
+            label="Your message"
             autoFocus
             maxRows={2}
             fullWidth
