@@ -1,6 +1,7 @@
 import styled from "@emotion/styled";
 
 export const ChatWrapper = styled.div`
+  margin-bottom: 20px;
   width: 85%;
   height: 70vh;
   border: 1px solid #c4c2c2;
@@ -29,7 +30,7 @@ export const Name = styled.div`
   overflow: hidden;
 
   @media (max-width: 550px) {
-    font-size: 8px;
+    font-size: 6px;
   }
 `;
 export const Message = styled.p`
